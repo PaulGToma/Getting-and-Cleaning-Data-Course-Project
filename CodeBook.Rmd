@@ -1,0 +1,24 @@
+---
+title: "Code Book"
+author: "Paul Toma"
+date: "2023-02-26"
+output: html_document
+---
+## Getting and Cleaning Data 
+
+
+## The original data was transformed by
+
+1. Merged test and training into one set
+2. Extracting the mean and standard deviation for each measurement. 
+3. Adding descriptions to each activity set
+4. Labeling activity names
+5. Creating a second tidy set with the average of each variable for each activity and each subject. 
+
+## About R script
+File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work)
+
+## About variables:   
+* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` date from the files given
+* `x_data`, `y_data` and `subject_data`  merges datasets
+* `features` real name of `x_data`  this is applied to column names.
